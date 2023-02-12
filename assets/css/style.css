@@ -729,6 +729,12 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -764,13 +770,15 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .facebook {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .facebook:hover i {
   background: #0563bb;
   color: #fff;
 }
